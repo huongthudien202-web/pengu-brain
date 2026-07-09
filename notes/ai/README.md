@@ -1,48 +1,52 @@
-| title | Three mindset shifts for scaling agent output |
-|-------|-----------------------------------------------|
-| date | 2026-06-02 |
-| captured | 2026-06-02 16:28:24 UTC |
-| tags | ai · agents · workflow |
-| source | Claude Code session |
+| title | My Note |
+|-------|---------|
+| date | 2026-07-09 |
+| captured | 2026-07-09 17:30 UTC |
+| tags | math · github |
+| source | Personal |
 
-When you run AI agents across many projects at once, the binding constraint is not the tooling...
+Breakdown of Vietnamese mathematical terms đơn thức, đa thức, and số hạng, with etymology of the English -nomial suffix. Useful when reading Vietnamese math/quantum computing material where Hán Việt terms can be ambiguous.
 
-# The axis: mindset vs mechanism
 
-Nội dung...
+# "Thức" in đơn thức / đa thức is NOT "công thức"
+Common confusion: the thức in đơn thức (monomial) and đa thức (polynomial) is unrelated to công thức (formula).
 
-## 1. Qualified is a choice
+Thức (式) = Hán Việt for "biểu thức" / expression / a cluster of mathematical symbols
+It refers to a term (số hạng), not a formula
 
-...
+| Vietnamese | English | Example |
+|------------|---------|---------|
+| Đơn thức | Monomial | 3x², 5xy, 7 |
+| Đa thức | Polynomial | 3x² + 5x − 2 |
+| Công thức | Formula | E = mc² |
 
-## 2. Stop being the agent's memory
+Đơn thức = a single term (only multiplication and exponents, no addition/subtraction between variables). Đa thức = a sum of multiple monomials joined by + or -.
 
-...
+## Etymology of "-nomial"
 
-## 3. Review output by sampling
+The -nomial suffix in monomial/binomial/polynomial has a contested origin, but the OED-accepted path is:
 
-...
-| title | Three mindset shifts for scaling agent output |
-|-------|-----------------------------------------------|
-| date | 2026-06-02 |
-| captured | 2026-06-02 16:28:24 UTC |
-| tags | ai · agents · workflow |
-| source | Claude Code session |
+Main hypothesis (Latin): From Latin nomen = "name". A monomial is "one named thing" (one term with its own identity); a polynomial is "many named things".
 
-When you run AI agents across many projects at once, the binding constraint is not the tooling...
+Alternative hypothesis (Greek): From Greek nomos (νόμος) = "part" or "division". Less commonly accepted.
 
-# The axis: mindset vs mechanism
+Historical path: François Viète coined binomial in the 16th century, modeled on Latin binominal (having two names). Trinomial and polynomial followed the same template. So even if the deep root is Greek, the actual entry into mathematics is via Latin nomen.
+| Prefix | Meaning | Example |
+|--------|---------|---------|
+| mono- | one | monomial: 3x² |
+| bi- | two | binomial: x + y |
+| tri- | three | trinomial: x² + 2x + 1 |
+| poly- | many | polynomial: x³ + 2x² + x + 5 |
+-nomial = "named term".
 
-Nội dung...
 
-## 1. Qualified is a choice
+## "Số hạng" decomposed
 
-...
+Số hạng is the Vietnamese term for term (English math vocab). Breakdown:
 
-## 2. Stop being the agent's memory
+Số (數) = number, quantity
+Hạng (項) = item, category, a separate part in a list
+The character 項 originally meant "neck/nape", then extended to "separate item" (like the vertebrae of the neck being distinct sequential parts).
 
-...
-
-## 3. Review output by sampling
-
-...
+Familiar uses of hạng:
+`AI` `Python` `GitHub` `Markdown`
